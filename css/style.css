@@ -268,7 +268,6 @@
 
 .footer .f_logo {
   display: flex;
-  gap: 68px;
   padding-bottom: 12px;
 }
 
@@ -278,8 +277,15 @@
 }
 
 .footer .f_logo .insta_logo {
-  width: 64px;
-  height: 64px;
+  z-index: 99999;
+  width: 56px;
+  height: 56px;
+
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
 }
 
 .footer .f_contents {
@@ -380,8 +386,14 @@
   }
 
   .footer .f_logo .insta_logo {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
+
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
   }
 }
 
@@ -699,8 +711,10 @@
   }
 
   .footer .f_logo .insta_logo {
-    width: 40px;
-    height: 40px;
+    bottom: 40px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
   }
 
   .footer .f_contents {
@@ -854,8 +868,10 @@
   }
 
   .footer .f_logo .insta_logo {
-    width: 30px;
-    height: 30px;
+    bottom: 40px;
+    right: 16px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
   }
 
   .footer .f_contents {
