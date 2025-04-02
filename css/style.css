@@ -120,7 +120,7 @@
 /* ------------------------- */
 .main_banner {
   width: 100%;
-  height: 1200px;
+  height: 1100px;
   background: url(../img/pc_top.webp) no-repeat center bottom / cover;
 
   transition: 0.3s;
