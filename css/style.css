@@ -582,7 +582,6 @@
     white-space: nowrap;
     justify-content: space-around;
 
-    /* 휴먼메이드 식으로 서브메뉴 */
     max-height: 0;
     overflow: hidden;
     width: auto;
@@ -689,7 +688,6 @@
   .sec_1 a,
   .sec_3 a {
     font-size: 0;
-    /* 폰트 사이즈가 남아있어서 이미지 여백 발생 */
   }
 
   .new_arrival .sec_title {
@@ -784,7 +782,6 @@
     white-space: nowrap;
     justify-content: space-around;
 
-    /* 휴먼메이드 식으로 서브메뉴 */
     max-height: 0;
     overflow: hidden;
     width: auto;
